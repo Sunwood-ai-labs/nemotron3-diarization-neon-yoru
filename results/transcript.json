@@ -1,0 +1,1782 @@
+{
+  "model": "Systran/faster-whisper-small",
+  "revision": "536b0662742c02347bc0e980a01041f333bce120",
+  "language": "ja",
+  "compute_type": "int8",
+  "wall_seconds": 19.7754988759998,
+  "segments": [
+    {
+      "start": 0.78,
+      "end": 4.56,
+      "text": "ちょ待って 前半は半年に1本だったのに",
+      "words": [
+        {
+          "start": 0.78,
+          "end": 1.2,
+          "word": "ちょ",
+          "probability": 0.43366655707359314,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 1.2,
+          "end": 1.6,
+          "word": "待って",
+          "probability": 0.5497304201126099,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 2.28,
+          "end": 2.56,
+          "word": " 前",
+          "probability": 0.9839792251586914,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 2.56,
+          "end": 2.78,
+          "word": "半",
+          "probability": 0.9961963891983032,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 2.78,
+          "end": 2.94,
+          "word": "は",
+          "probability": 0.9953581690788269,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 2.94,
+          "end": 3.16,
+          "word": "半",
+          "probability": 0.981137752532959,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 3.16,
+          "end": 3.32,
+          "word": "年",
+          "probability": 0.9751487374305725,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 3.32,
+          "end": 3.54,
+          "word": "に",
+          "probability": 0.987768828868866,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 3.54,
+          "end": 3.7,
+          "word": "1",
+          "probability": 0.5860459804534912,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 3.7,
+          "end": 3.8,
+          "word": "本",
+          "probability": 0.9880495667457581,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 3.8,
+          "end": 3.94,
+          "word": "だ",
+          "probability": 0.986171305179596,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 3.94,
+          "end": 4.08,
+          "word": "った",
+          "probability": 0.9996165037155151,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 4.08,
+          "end": 4.2,
+          "word": "の",
+          "probability": 0.9985041618347168,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 4.2,
+          "end": 4.56,
+          "word": "に",
+          "probability": 0.9975512623786926,
+          "speaker_channel": 0,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 5.1,
+      "end": 9.18,
+      "text": "ふーん 夜見もいる",
+      "words": [
+        {
+          "start": 5.1,
+          "end": 5.5,
+          "word": "ふ",
+          "probability": 0.19509977102279663,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 5.5,
+          "end": 5.9,
+          "word": "ーん",
+          "probability": 0.2903943359851837,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 7.8,
+          "end": 8.0,
+          "word": " 夜",
+          "probability": 0.780564546585083,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 8.0,
+          "end": 8.24,
+          "word": "見",
+          "probability": 0.26757723093032837,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 8.24,
+          "end": 8.58,
+          "word": "も",
+          "probability": 0.9793401956558228,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 8.58,
+          "end": 9.18,
+          "word": "いる",
+          "probability": 0.4269278943538666,
+          "speaker_channel": null,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 10.5,
+      "end": 13.34,
+      "text": "無理だ 別にやるけど",
+      "words": [
+        {
+          "start": 10.5,
+          "end": 10.9,
+          "word": "無",
+          "probability": 0.23290473222732544,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 10.9,
+          "end": 11.08,
+          "word": "理",
+          "probability": 0.9994781613349915,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 11.08,
+          "end": 11.4,
+          "word": "だ",
+          "probability": 0.9957428574562073,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 11.86,
+          "end": 12.16,
+          "word": " 別",
+          "probability": 0.9959539175033569,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 12.16,
+          "end": 12.36,
+          "word": "に",
+          "probability": 0.9969019889831543,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 12.36,
+          "end": 13.04,
+          "word": "や",
+          "probability": 0.6653727889060974,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 13.04,
+          "end": 13.16,
+          "word": "る",
+          "probability": 0.99893718957901,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 13.16,
+          "end": 13.34,
+          "word": "けど",
+          "probability": 0.9970189332962036,
+          "speaker_channel": 2,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 13.76,
+      "end": 18.16,
+      "text": "はいどうもー 寝おんよる 今夜は最近のモデル",
+      "words": [
+        {
+          "start": 13.76,
+          "end": 14.16,
+          "word": "はい",
+          "probability": 0.2971467971801758,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 14.16,
+          "end": 14.34,
+          "word": "どう",
+          "probability": 0.39123594760894775,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 14.34,
+          "end": 14.52,
+          "word": "も",
+          "probability": 0.9971810579299927,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 14.52,
+          "end": 15.1,
+          "word": "ー",
+          "probability": 0.6706532835960388,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 15.14,
+          "end": 15.32,
+          "word": " 寝",
+          "probability": 0.8787879645824432,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 15.32,
+          "end": 15.48,
+          "word": "お",
+          "probability": 0.10709717869758606,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 15.48,
+          "end": 15.54,
+          "word": "ん",
+          "probability": 0.9746614694595337,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 15.54,
+          "end": 15.62,
+          "word": "よ",
+          "probability": 0.4004265069961548,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 15.62,
+          "end": 15.86,
+          "word": "る",
+          "probability": 0.9291298389434814,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 16.0,
+          "end": 16.18,
+          "word": " 今",
+          "probability": 0.9937969446182251,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 16.18,
+          "end": 16.32,
+          "word": "夜",
+          "probability": 0.9968825578689575,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 16.32,
+          "end": 16.5,
+          "word": "は",
+          "probability": 0.9966886639595032,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 16.5,
+          "end": 17.24,
+          "word": "最近",
+          "probability": 0.8414983153343201,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 17.24,
+          "end": 17.6,
+          "word": "の",
+          "probability": 0.9905164837837219,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 17.6,
+          "end": 17.76,
+          "word": "モ",
+          "probability": 0.9376664757728577,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 17.76,
+          "end": 17.88,
+          "word": "デ",
+          "probability": 0.9937904477119446,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 17.88,
+          "end": 18.16,
+          "word": "ル",
+          "probability": 0.47002580761909485,
+          "speaker_channel": null,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 18.16,
+      "end": 20.88,
+      "text": "続きまして 紙しろしおんがをお伝えします",
+      "words": [
+        {
+          "start": 18.16,
+          "end": 18.46,
+          "word": "続",
+          "probability": 0.5450881123542786,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 18.46,
+          "end": 18.62,
+          "word": "き",
+          "probability": 0.9966945648193359,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 18.62,
+          "end": 18.7,
+          "word": "ま",
+          "probability": 0.9963609576225281,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 18.7,
+          "end": 18.9,
+          "word": "して",
+          "probability": 0.9985615611076355,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 19.48,
+          "end": 19.58,
+          "word": " 紙",
+          "probability": 0.5383200347423553,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 19.58,
+          "end": 19.72,
+          "word": "し",
+          "probability": 0.11116417497396469,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 19.72,
+          "end": 19.84,
+          "word": "ろ",
+          "probability": 0.9922248125076294,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 19.84,
+          "end": 20.02,
+          "word": "し",
+          "probability": 0.15097175538539886,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 20.02,
+          "end": 20.14,
+          "word": "お",
+          "probability": 0.7447683811187744,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 20.14,
+          "end": 20.22,
+          "word": "ん",
+          "probability": 0.9547616839408875,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 20.22,
+          "end": 20.26,
+          "word": "が",
+          "probability": 0.9840840697288513,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 20.26,
+          "end": 20.38,
+          "word": "を",
+          "probability": 0.16501927375793457,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 20.38,
+          "end": 20.4,
+          "word": "お",
+          "probability": 0.8198794722557068,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 20.4,
+          "end": 20.54,
+          "word": "伝",
+          "probability": 0.9929089248180389,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 20.54,
+          "end": 20.62,
+          "word": "え",
+          "probability": 0.9956517815589905,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 20.62,
+          "end": 20.88,
+          "word": "します",
+          "probability": 0.989258348941803,
+          "speaker_channel": null,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 21.64,
+      "end": 22.3,
+      "text": "GP",
+      "words": [
+        {
+          "start": 21.64,
+          "end": 22.04,
+          "word": "G",
+          "probability": 0.2669210731983185,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 22.04,
+          "end": 22.3,
+          "word": "P",
+          "probability": 0.854415774345398,
+          "speaker_channel": null,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 22.3,
+      "end": 24.9,
+      "text": "うーん 何も来たよ",
+      "words": [
+        {
+          "start": 22.3,
+          "end": 22.98,
+          "word": "う",
+          "probability": 0.1292612999677658,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 22.98,
+          "end": 23.48,
+          "word": "ーん",
+          "probability": 0.9574860334396362,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 23.74,
+          "end": 23.86,
+          "word": " 何",
+          "probability": 0.15935854613780975,
+          "speaker_channel": 3,
+          "name": "不明"
+        },
+        {
+          "start": 23.86,
+          "end": 24.08,
+          "word": "も",
+          "probability": 0.8272913098335266,
+          "speaker_channel": 3,
+          "name": "不明"
+        },
+        {
+          "start": 24.08,
+          "end": 24.24,
+          "word": "来",
+          "probability": 0.8845536708831787,
+          "speaker_channel": 3,
+          "name": "不明"
+        },
+        {
+          "start": 24.24,
+          "end": 24.42,
+          "word": "た",
+          "probability": 0.9974507689476013,
+          "speaker_channel": 3,
+          "name": "不明"
+        },
+        {
+          "start": 24.42,
+          "end": 24.9,
+          "word": "よ",
+          "probability": 0.9931142926216125,
+          "speaker_channel": 3,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 25.68,
+      "end": 26.88,
+      "text": "で 昔",
+      "words": [
+        {
+          "start": 25.68,
+          "end": 26.08,
+          "word": "で",
+          "probability": 0.6110632419586182,
+          "speaker_channel": 3,
+          "name": "不明"
+        },
+        {
+          "start": 26.64,
+          "end": 26.88,
+          "word": " 昔",
+          "probability": 0.9839556217193604,
+          "speaker_channel": null,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 26.88,
+      "end": 31.36,
+      "text": "おんよる 黒ゆうりレンよ",
+      "words": [
+        {
+          "start": 26.88,
+          "end": 27.42,
+          "word": "お",
+          "probability": 0.13569889962673187,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 27.42,
+          "end": 27.6,
+          "word": "ん",
+          "probability": 0.927738606929779,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 27.6,
+          "end": 27.76,
+          "word": "よ",
+          "probability": 0.9384625554084778,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 27.76,
+          "end": 27.98,
+          "word": "る",
+          "probability": 0.9974105954170227,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 29.82,
+          "end": 30.44,
+          "word": " 黒",
+          "probability": 0.9790726900100708,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 30.44,
+          "end": 30.64,
+          "word": "ゆ",
+          "probability": 0.4589923322200775,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 30.64,
+          "end": 30.68,
+          "word": "う",
+          "probability": 0.5335679054260254,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 30.68,
+          "end": 30.8,
+          "word": "り",
+          "probability": 0.9910747408866882,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 30.8,
+          "end": 31.04,
+          "word": "レ",
+          "probability": 0.4050518274307251,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 31.04,
+          "end": 31.16,
+          "word": "ン",
+          "probability": 0.865850031375885,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 31.16,
+          "end": 31.36,
+          "word": "よ",
+          "probability": 0.9083598852157593,
+          "speaker_channel": 0,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 31.36,
+      "end": 35.94,
+      "text": "おんよる ポンた ゆら最初から数えてた",
+      "words": [
+        {
+          "start": 31.36,
+          "end": 31.46,
+          "word": "お",
+          "probability": 0.030680732801556587,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 31.46,
+          "end": 32.14,
+          "word": "ん",
+          "probability": 0.5692898631095886,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 32.14,
+          "end": 32.3,
+          "word": "よ",
+          "probability": 0.7553977966308594,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 32.3,
+          "end": 32.5,
+          "word": "る",
+          "probability": 0.9775935411453247,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 32.5,
+          "end": 33.38,
+          "word": " ポ",
+          "probability": 0.5004502255469561,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 33.38,
+          "end": 33.46,
+          "word": "ン",
+          "probability": 0.38304540514945984,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 33.46,
+          "end": 33.62,
+          "word": "た",
+          "probability": 0.1669122278690338,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 34.34,
+          "end": 34.44,
+          "word": " ゆ",
+          "probability": 0.45857223868370056,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 34.44,
+          "end": 34.58,
+          "word": "ら",
+          "probability": 0.9676396250724792,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 34.58,
+          "end": 34.9,
+          "word": "最",
+          "probability": 0.7902568578720093,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 34.9,
+          "end": 35.06,
+          "word": "初",
+          "probability": 0.9997764229774475,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 35.06,
+          "end": 35.28,
+          "word": "から",
+          "probability": 0.9934216141700745,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 35.28,
+          "end": 35.52,
+          "word": "数",
+          "probability": 0.9925855994224548,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 35.52,
+          "end": 35.74,
+          "word": "えて",
+          "probability": 0.9941039681434631,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 35.74,
+          "end": 35.94,
+          "word": "た",
+          "probability": 0.8817561268806458,
+          "speaker_channel": 0,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 36.46,
+      "end": 40.88,
+      "text": "それ知ってる 3日ガーストラー 22日がそっ",
+      "words": [
+        {
+          "start": 36.46,
+          "end": 36.86,
+          "word": "それ",
+          "probability": 0.4594103991985321,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 36.86,
+          "end": 37.04,
+          "word": "知",
+          "probability": 0.9298865795135498,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 37.04,
+          "end": 37.28,
+          "word": "ってる",
+          "probability": 0.9873813390731812,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 37.28,
+          "end": 37.98,
+          "word": " 3",
+          "probability": 0.22252202033996582,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 37.98,
+          "end": 38.2,
+          "word": "日",
+          "probability": 0.8212137222290039,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 38.2,
+          "end": 38.38,
+          "word": "ガ",
+          "probability": 0.7554126381874084,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 38.38,
+          "end": 38.44,
+          "word": "ー",
+          "probability": 0.9107456803321838,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 38.44,
+          "end": 38.58,
+          "word": "スト",
+          "probability": 0.9908122420310974,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 38.58,
+          "end": 38.78,
+          "word": "ラ",
+          "probability": 0.9818774461746216,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 38.78,
+          "end": 39.16,
+          "word": "ー",
+          "probability": 0.3138171434402466,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 39.16,
+          "end": 39.46,
+          "word": " 22",
+          "probability": 0.7082836031913757,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 39.46,
+          "end": 40.04,
+          "word": "日",
+          "probability": 0.943874180316925,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 40.04,
+          "end": 40.22,
+          "word": "が",
+          "probability": 0.7806611061096191,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 40.22,
+          "end": 40.38,
+          "word": "そ",
+          "probability": 0.345497727394104,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 40.38,
+          "end": 40.88,
+          "word": "っ",
+          "probability": 0.5275918841362,
+          "speaker_channel": 0,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 40.88,
+      "end": 43.98,
+      "text": "そう ルナは小さくて早い子",
+      "words": [
+        {
+          "start": 40.88,
+          "end": 41.44,
+          "word": "そう",
+          "probability": 0.24640952050685883,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 41.74,
+          "end": 42.14,
+          "word": " ル",
+          "probability": 0.6658569574356079,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 42.14,
+          "end": 42.28,
+          "word": "ナ",
+          "probability": 0.9199970960617065,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 42.28,
+          "end": 42.48,
+          "word": "は",
+          "probability": 0.9956914782524109,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 42.48,
+          "end": 42.78,
+          "word": "小",
+          "probability": 0.9792683124542236,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 42.78,
+          "end": 42.98,
+          "word": "さ",
+          "probability": 0.9903649687767029,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 42.98,
+          "end": 43.16,
+          "word": "く",
+          "probability": 0.9996603727340698,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 43.16,
+          "end": 43.28,
+          "word": "て",
+          "probability": 0.9987140893936157,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 43.28,
+          "end": 43.6,
+          "word": "早",
+          "probability": 0.7325959205627441,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 43.6,
+          "end": 43.8,
+          "word": "い",
+          "probability": 0.9819507598876953,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 43.8,
+          "end": 43.98,
+          "word": "子",
+          "probability": 0.9682976007461548,
+          "speaker_channel": 0,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 44.54,
+      "end": 47.0,
+      "text": "いっ BPM60じゃん",
+      "words": [
+        {
+          "start": 44.54,
+          "end": 44.94,
+          "word": "い",
+          "probability": 0.005304491147398949,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 44.94,
+          "end": 45.32,
+          "word": "っ",
+          "probability": 0.45684289932250977,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 45.32,
+          "end": 45.5,
+          "word": " B",
+          "probability": 0.2593269348144531,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 45.5,
+          "end": 45.92,
+          "word": "PM",
+          "probability": 0.8681545853614807,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 45.92,
+          "end": 46.34,
+          "word": "60",
+          "probability": 0.7891818284988403,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 46.34,
+          "end": 46.8,
+          "word": "じゃ",
+          "probability": 0.9135311841964722,
+          "speaker_channel": 3,
+          "name": "不明"
+        },
+        {
+          "start": 46.8,
+          "end": 47.0,
+          "word": "ん",
+          "probability": 0.8779138326644897,
+          "speaker_channel": 3,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 48.5,
+      "end": 53.58,
+      "text": "寝るわ はい オープンAIの基準でサイバーセキュリティ能力が",
+      "words": [
+        {
+          "start": 48.5,
+          "end": 48.9,
+          "word": "寝",
+          "probability": 0.7404151558876038,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 48.9,
+          "end": 49.04,
+          "word": "る",
+          "probability": 0.9970652461051941,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 49.04,
+          "end": 49.18,
+          "word": "わ",
+          "probability": 0.95318204164505,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 49.18,
+          "end": 49.76,
+          "word": " はい",
+          "probability": 0.17751836776733398,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 50.42,
+          "end": 50.52,
+          "word": " オ",
+          "probability": 0.9959730505943298,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 50.52,
+          "end": 50.68,
+          "word": "ープ",
+          "probability": 0.9981274306774139,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 50.68,
+          "end": 50.82,
+          "word": "ン",
+          "probability": 0.9555768966674805,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 50.82,
+          "end": 51.04,
+          "word": "AI",
+          "probability": 0.733296811580658,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 51.04,
+          "end": 51.28,
+          "word": "の",
+          "probability": 0.9879875183105469,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 51.28,
+          "end": 51.44,
+          "word": "基",
+          "probability": 0.985230028629303,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 51.44,
+          "end": 51.6,
+          "word": "準",
+          "probability": 0.9911819696426392,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 51.6,
+          "end": 51.8,
+          "word": "で",
+          "probability": 0.9976370334625244,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 51.8,
+          "end": 52.34,
+          "word": "サ",
+          "probability": 0.8642987608909607,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 52.34,
+          "end": 52.4,
+          "word": "イ",
+          "probability": 0.9984431862831116,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 52.4,
+          "end": 52.5,
+          "word": "バ",
+          "probability": 0.9786974787712097,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 52.5,
+          "end": 52.6,
+          "word": "ー",
+          "probability": 0.9921683669090271,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 52.6,
+          "end": 52.74,
+          "word": "セ",
+          "probability": 0.9848146438598633,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 52.74,
+          "end": 52.78,
+          "word": "キ",
+          "probability": 0.9906976819038391,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 52.78,
+          "end": 52.82,
+          "word": "ュ",
+          "probability": 0.9630340337753296,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 52.82,
+          "end": 52.9,
+          "word": "リ",
+          "probability": 0.996938943862915,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 52.9,
+          "end": 53.0,
+          "word": "テ",
+          "probability": 0.9979612827301025,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 53.0,
+          "end": 53.04,
+          "word": "ィ",
+          "probability": 0.9995551705360413,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 53.04,
+          "end": 53.2,
+          "word": "能",
+          "probability": 0.9296567440032959,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 53.2,
+          "end": 53.34,
+          "word": "力",
+          "probability": 0.999956488609314,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 53.34,
+          "end": 53.58,
+          "word": "が",
+          "probability": 0.9834559559822083,
+          "speaker_channel": 0,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 53.58,
+      "end": 54.56,
+      "text": "何が?",
+      "words": [
+        {
+          "start": 53.58,
+          "end": 54.32,
+          "word": "何",
+          "probability": 0.5605165958404541,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 54.32,
+          "end": 54.56,
+          "word": "が?",
+          "probability": 0.9752293825149536,
+          "speaker_channel": 0,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 55.16,
+      "end": 58.12,
+      "text": "GPT4が出たの 2023年の",
+      "words": [
+        {
+          "start": 55.16,
+          "end": 55.32,
+          "word": "G",
+          "probability": 0.35593506693840027,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 55.32,
+          "end": 55.58,
+          "word": "P",
+          "probability": 0.8917406797409058,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 55.58,
+          "end": 55.78,
+          "word": "T",
+          "probability": 0.9643508195877075,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 55.78,
+          "end": 56.04,
+          "word": "4",
+          "probability": 0.8220223188400269,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 56.04,
+          "end": 56.18,
+          "word": "が",
+          "probability": 0.9489789009094238,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 56.18,
+          "end": 56.32,
+          "word": "出",
+          "probability": 0.9385089874267578,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 56.32,
+          "end": 56.46,
+          "word": "た",
+          "probability": 0.9970864653587341,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 56.46,
+          "end": 56.58,
+          "word": "の",
+          "probability": 0.993226945400238,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 56.58,
+          "end": 57.46,
+          "word": " 2023",
+          "probability": 0.5033122897148132,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 57.46,
+          "end": 58.0,
+          "word": "年",
+          "probability": 0.9623972773551941,
+          "speaker_channel": 1,
+          "name": "不明"
+        },
+        {
+          "start": 58.0,
+          "end": 58.12,
+          "word": "の",
+          "probability": 0.931344747543335,
+          "speaker_channel": 1,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 58.12,
+      "end": 60.54,
+      "text": "ソルガー 仕事用",
+      "words": [
+        {
+          "start": 58.12,
+          "end": 58.78,
+          "word": "ソ",
+          "probability": 0.43728476762771606,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 58.78,
+          "end": 58.94,
+          "word": "ル",
+          "probability": 0.9663509130477905,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 58.94,
+          "end": 59.16,
+          "word": "ガ",
+          "probability": 0.5325086116790771,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 59.16,
+          "end": 59.52,
+          "word": "ー",
+          "probability": 0.3145371973514557,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 59.84,
+          "end": 60.12,
+          "word": " 仕",
+          "probability": 0.9977318048477173,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 60.12,
+          "end": 60.32,
+          "word": "事",
+          "probability": 0.9995823502540588,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 60.32,
+          "end": 60.54,
+          "word": "用",
+          "probability": 0.5023279190063477,
+          "speaker_channel": 2,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 61.2,
+      "end": 63.0,
+      "text": "コードとAじゃん",
+      "words": [
+        {
+          "start": 61.2,
+          "end": 61.48,
+          "word": "コ",
+          "probability": 0.04591773822903633,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 61.48,
+          "end": 61.68,
+          "word": "ード",
+          "probability": 0.9945716261863708,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 61.68,
+          "end": 61.88,
+          "word": "と",
+          "probability": 0.8989669680595398,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 61.88,
+          "end": 62.54,
+          "word": "A",
+          "probability": 0.3965083062648773,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 62.54,
+          "end": 62.64,
+          "word": "じゃ",
+          "probability": 0.49424344301223755,
+          "speaker_channel": 2,
+          "name": "不明"
+        },
+        {
+          "start": 62.64,
+          "end": 63.0,
+          "word": "ん",
+          "probability": 0.5343499779701233,
+          "speaker_channel": null,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 63.0,
+      "end": 66.54,
+      "text": "いやー 夜見はアンコールまで",
+      "words": [
+        {
+          "start": 63.0,
+          "end": 63.28,
+          "word": "いや",
+          "probability": 0.056317929178476334,
+          "speaker_channel": null,
+          "name": "不明"
+        },
+        {
+          "start": 63.28,
+          "end": 64.02,
+          "word": "ー",
+          "probability": 0.43123432993888855,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 64.08,
+          "end": 64.26,
+          "word": " 夜",
+          "probability": 0.610084593296051,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 64.26,
+          "end": 64.5,
+          "word": "見",
+          "probability": 0.18875552713871002,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 64.5,
+          "end": 64.8,
+          "word": "は",
+          "probability": 0.9854941368103027,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 64.8,
+          "end": 65.74,
+          "word": "ア",
+          "probability": 0.7732052206993103,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 65.74,
+          "end": 65.82,
+          "word": "ン",
+          "probability": 0.9934676289558411,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 65.82,
+          "end": 66.06,
+          "word": "コ",
+          "probability": 0.9759519696235657,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 66.06,
+          "end": 66.2,
+          "word": "ール",
+          "probability": 0.9987429976463318,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 66.2,
+          "end": 66.54,
+          "word": "まで",
+          "probability": 0.9903880953788757,
+          "speaker_channel": 0,
+          "name": "不明"
+        }
+      ]
+    },
+    {
+      "start": 67.38,
+      "end": 71.14,
+      "text": "GPT4が2023年3月14日",
+      "words": [
+        {
+          "start": 67.38,
+          "end": 67.66,
+          "word": "G",
+          "probability": 0.2860350012779236,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 67.66,
+          "end": 68.0,
+          "word": "P",
+          "probability": 0.7906400561332703,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 68.0,
+          "end": 68.24,
+          "word": "T",
+          "probability": 0.9575004577636719,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 68.24,
+          "end": 68.52,
+          "word": "4",
+          "probability": 0.5497955679893494,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 68.52,
+          "end": 68.68,
+          "word": "が",
+          "probability": 0.8964458703994751,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 68.68,
+          "end": 69.02,
+          "word": "20",
+          "probability": 0.8109050393104553,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 69.02,
+          "end": 69.7,
+          "word": "23",
+          "probability": 0.9879292249679565,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 69.7,
+          "end": 69.94,
+          "word": "年",
+          "probability": 0.9962269067764282,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 69.94,
+          "end": 70.18,
+          "word": "3",
+          "probability": 0.9936015009880066,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 70.18,
+          "end": 70.34,
+          "word": "月",
+          "probability": 0.9940834641456604,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 70.34,
+          "end": 70.66,
+          "word": "14",
+          "probability": 0.9911523461341858,
+          "speaker_channel": 0,
+          "name": "不明"
+        },
+        {
+          "start": 70.66,
+          "end": 71.14,
+          "word": "日",
+          "probability": 0.9884757995605469,
+          "speaker_channel": 0,
+          "name": "不明"
+        }
+      ]
+    }
+  ],
+  "accuracy": "not scored; no independently hand-checked reference"
+}

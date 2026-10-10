@@ -1,0 +1,3 @@
+services:
+  experiment:
+    command: /bin/sh -c 'python diagnose.py > /work/evidence/diagnose-model.log 2>&1'

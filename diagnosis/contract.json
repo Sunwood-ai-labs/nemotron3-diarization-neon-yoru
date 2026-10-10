@@ -1,0 +1,41 @@
+{
+  "model": "nvidia/Nemotron-3-Diarization",
+  "revision": "f667ed73aee57d40cc39428eb768b4fd87a0a29e",
+  "weight_sha256": "c074d86335b3b794f8fa5edc25594558f128bdb3914d27806a3a5a2e44963cb6",
+  "runtime": "Transformers 5.19.0 CPU FP32",
+  "sample_rate": 16000,
+  "thresholds": [
+    0.25,
+    0.35,
+    0.5,
+    0.65
+  ],
+  "planned_cells": [
+    {
+      "name": "conversation_4s",
+      "duration_seconds": 72.84,
+      "turns": 16
+    },
+    {
+      "name": "conversation_full",
+      "duration_seconds": 109.52,
+      "turns": 16
+    },
+    {
+      "name": "introduction_4s",
+      "duration_seconds": 73.4,
+      "turns": 16
+    },
+    {
+      "name": "introduction_12s",
+      "duration_seconds": 201.4,
+      "turns": 16
+    }
+  ],
+  "limits": [
+    "energy reference, not hand-annotated DER",
+    "full conversation inherits project timings",
+    "introduction second round repeats same waveform",
+    "threshold grid is diagnostic, not held-out calibration"
+  ]
+}

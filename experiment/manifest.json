@@ -1,0 +1,171 @@
+{
+  "created_before_inference": true,
+  "source_type": "existing NEON YORU Japanese Gemini TTS, not human meeting",
+  "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+  "source_root": "/source",
+  "sample_rate": 16000,
+  "model_id": "nvidia/Nemotron-3-Diarization",
+  "revision": "f667ed73aee57d40cc39428eb768b4fd87a0a29e",
+  "model_file": "Nemotron-3-Diarization.q8_0.gguf",
+  "model_sha256": "08456d9e22cd9a323c0364d98375f3746d6e68507ebb705cd46438c534c7a3a1",
+  "runtime": "NVIDIA NeMo-Speech.cpp v0.2.0 Linux x86_64 CPU via Docker Compose v5.5.0 on dedicated Podman engine",
+  "runtime_archive_sha256": "f396057150f1b774935c7414fd32ebc04195a795a34120d78d8c9ecefa1b7507",
+  "settings": {
+    "preset": "v3-offline",
+    "onset": 0.5,
+    "offset": 0.5,
+    "pad_onset": 0,
+    "pad_offset": 0,
+    "min_duration_on": 0.1,
+    "min_duration_off": 0.1
+  },
+  "identity_model": "nvidia/speakerverification_en_titanet_large",
+  "identity_accept_similarity": 0.65,
+  "identity_accept_top1_minus_top2": 0.05,
+  "metrics": [
+    "optimal one-to-one speaker/channel mapping",
+    "majority speaker per known clip",
+    "energy-reference frame diagnostics",
+    "TitaNet independent enrollment top1 and conservative rejection"
+  ],
+  "limitations": [
+    "line timings inherited from project and not newly hand-annotated",
+    "energy reference is not formal DER",
+    "Q8 CPU runtime, not FP32 NeMo",
+    "8 synthetic voices are not 8 real people"
+  ],
+  "inputs": [
+    {
+      "name": "clean",
+      "duration_seconds": 72.84,
+      "sha256": "a90c7b4a5081557c8d8da5971c35b848ca3abc7053784c62f610ce874360b513",
+      "turns": 16,
+      "speakers": 8,
+      "reference": "10ms energy mask RMS > 0.006 before mixing"
+    },
+    {
+      "name": "overlap",
+      "duration_seconds": 61.07,
+      "sha256": "ee9ba9f8af51c124c9c067e9f2a03c07d35dde159521d134cff4e70941065915",
+      "turns": 16,
+      "speakers": 8,
+      "reference": "10ms energy mask RMS > 0.006 before mixing"
+    },
+    {
+      "name": "bgm_minus20db",
+      "duration_seconds": 72.84,
+      "sha256": "b17453c0ef51d9196e1af1c0b65d4b21e3c84b671eaaec183db95c0250d8f8ab",
+      "turns": 16,
+      "speakers": 8,
+      "reference": "10ms energy mask RMS > 0.006 before mixing"
+    }
+  ],
+  "sources": [
+    {
+      "path": "/source/public/stream/S1.wav",
+      "sha256": "cc64a9c0659e090b90e469ec630915d23166c3701f950bd7c81f3790986bb5f6"
+    },
+    {
+      "path": "/source/public/stream/S2.wav",
+      "sha256": "87c9b4814a3849d050295f4451d078530384782e77ed5b0dcde9ff3292d2402c"
+    },
+    {
+      "path": "/source/public/stream/S3.wav",
+      "sha256": "9da910f1728623dd30d8d5bc70fb011b0fa904962b0a25cf1760fe877cbb7dd3"
+    },
+    {
+      "path": "/source/public/stream/S4.wav",
+      "sha256": "1e17b1242fb5d2760f7d23b331add2168f2e0434a9829f75c239bdd442235618"
+    },
+    {
+      "path": "/source/public/stream/S5.wav",
+      "sha256": "d174a8129dbe438dfaa4af5e50acff83f0e9b3ac205db45616675a94c09da4c0"
+    },
+    {
+      "path": "/source/public/stream/S6.wav",
+      "sha256": "6f1456d504cb14a6054ace08be787c68744c31f5138fc192f19bd5b52c3c3493"
+    },
+    {
+      "path": "/source/public/stream/S7.wav",
+      "sha256": "9915b136463b4417bcd1c4b113823eb2c1683521ed297a552d7e0debed2644a1"
+    },
+    {
+      "path": "/source/public/stream/S8.wav",
+      "sha256": "c7d3d40d282dbd1c46f55ed909e5de24e35fe9147525f2558932e71f7b2077ec"
+    },
+    {
+      "path": "/source/public/voice/01.wav",
+      "sha256": "30b4abb3799de56a9dbef220efa9791a4c3938c48b6ac00f4fe70c060dc1d6f2"
+    },
+    {
+      "path": "/source/public/voice/02.wav",
+      "sha256": "779323556cd2c8b51064835dc7305f8af275a481f2280045335ae1a6ff52c931"
+    },
+    {
+      "path": "/source/public/voice/03.wav",
+      "sha256": "9fc5dcc721658e8973b82dcb6da201e448d9ff85d791ca1076bf7c22a874d2bc"
+    },
+    {
+      "path": "/source/public/voice/04.wav",
+      "sha256": "d7f801688e38337c2385d6488335fec36e54fd6570ff0d81dd56b43e1904a156"
+    },
+    {
+      "path": "/source/public/voice/05.wav",
+      "sha256": "176db9e18da5ff17e1b4af051850b024a280a2a6072b888247d10f5ad18929da"
+    },
+    {
+      "path": "/source/public/voice/06.wav",
+      "sha256": "e5bd34f9352e3504429e007706b923422269c5dae049c0c3ebcdb4481fd2fe45"
+    },
+    {
+      "path": "/source/public/voice/07.wav",
+      "sha256": "b7d5bde7e50356d5f504bbae842fbc9299127175e7abc96fbeb7a68a41a08997"
+    },
+    {
+      "path": "/source/public/voice/08.wav",
+      "sha256": "49053cede8e3ae8056f17a28ff523e7e55dd270ebf6541bfbb3fa013536a6a6e"
+    }
+  ],
+  "cast": {
+    "01": {
+      "name": "紅月レイ",
+      "voice": "ja-jp-commercial-6",
+      "persona": "少しハスキーで芯のある高めの若い女性の声。クールで気だるく、余裕のある大人っぽい話し方"
+    },
+    "02": {
+      "name": "海月よるみ",
+      "voice": "ja-jp-tutor-3",
+      "persona": "息を多く含んだ、柔らかく透き通る囁き声。声量はかなり小さく、眠そう"
+    },
+    "03": {
+      "name": "天狗カガセ",
+      "voice": "ja-jp-commercial-2",
+      "persona": "艶のある中低音の若い男性の声。少し掠れていて夜っぽい色気がある。口数が少ない"
+    },
+    "04": {
+      "name": "ぽんた",
+      "voice": "ja-jp-assistant-9",
+      "persona": "明るく高めで、感情がそのまま声に出る元気な声。テンション高め"
+    },
+    "05": {
+      "name": "神代シオン",
+      "voice": "ja-jp-advisor-2",
+      "persona": "落ち着いた知的なアルトの女性の声。発音が非常に明瞭で丁寧、抑揚は小さく一定"
+    },
+    "06": {
+      "name": "深海ナギ",
+      "voice": "ja-jp-assistant-4",
+      "persona": "少し低めでハスキーな若い女性の中音域の声。普段は気だるい"
+    },
+    "07": {
+      "name": "黒百合レン",
+      "voice": "ja-jp-commercial-1",
+      "persona": "低く艶のある大人の女性の声。とてもゆっくりで、声を張らないのに存在感がある"
+    },
+    "08": {
+      "name": "ユラ",
+      "voice": "ja-jp-assistant-7",
+      "persona": "ふわっと高く、少し幼さの残る不思議な少女の声。息が少し抜ける"
+    }
+  }
+}

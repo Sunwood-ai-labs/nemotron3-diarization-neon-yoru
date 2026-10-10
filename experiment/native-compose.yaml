@@ -1,0 +1,3 @@
+services:
+  experiment:
+    command: /bin/sh -c 'python native.py > /work/evidence/native-model.log 2>&1 && python transcribe.py > /work/evidence/asr-model.log 2>&1 && python summarize.py'

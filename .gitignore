@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+quickstart/runtime/
+quickstart/models/
+quickstart/inputs/
+quickstart/enrollment/
+quickstart/clips/
+quickstart/results/

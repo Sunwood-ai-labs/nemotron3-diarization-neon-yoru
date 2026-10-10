@@ -1,0 +1,25 @@
+{
+  "name": "overlap",
+  "audio_seconds": 61.07,
+  "wall_seconds": 4.174757710999984,
+  "real_time_factor": 0.06836020486327139,
+  "detected_speaker_channels": 5,
+  "mapping_channel_to_cast": {
+    "0": "01",
+    "1": "02",
+    "4": "03",
+    "2": "04",
+    "5": "05",
+    "3": "06",
+    "6": "07",
+    "7": "08"
+  },
+  "turns_correct": 7,
+  "turns_total": 16,
+  "exclusive_energy_frame_exact_accuracy": 0.3349577647823262,
+  "energy_speech_recall": 0.3440968718466196,
+  "overlap_precision": 0.790356394129979,
+  "overlap_recall": 0.8510158013544018,
+  "reference_overlap_seconds": 4.43,
+  "predicted_overlap_seconds": 4.77
+}

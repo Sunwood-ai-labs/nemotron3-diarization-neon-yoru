@@ -1,0 +1,15 @@
+services:
+  experiment:
+    build: .
+    image: neon-yoru-diarization:2026-10-10
+    cpus: 8
+    mem_limit: 16g
+    network_mode: none
+    environment:
+      YORU_SOURCE: /source
+      PYTHONUTF8: '1'
+      HF_HOME: /work/models/hf-cache
+    volumes:
+      - ${WORK_MOUNT:-.}:/work
+      - ${YORU_MOUNT:-C:/Prj/YORU}:/source:ro
+    command: /bin/sh -c 'python experiment.py > /work/evidence/experiment-model.log 2>&1'

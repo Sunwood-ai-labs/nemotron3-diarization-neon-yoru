@@ -1,0 +1,16 @@
+{
+  "model_id": "nvidia/speakerverification_en_titanet_large",
+  "revision": "0dc382f40121a5fbd34db10a2bb04d826c2be6a8",
+  "model_sha256": "e838520693f269e7984f55bc8eb3c2d60ccf246bf4b896d4be9bcabe3e4b0fe3",
+  "wall_seconds": 12.514392846999726,
+  "queries": 16,
+  "closed_set_correct": 13,
+  "accepted": 4,
+  "accepted_correct": 4,
+  "unknown_holdout_rejected": 14,
+  "thresholds": {
+    "cosine": 0.65,
+    "margin": 0.05
+  },
+  "thresholds_calibrated": false
+}

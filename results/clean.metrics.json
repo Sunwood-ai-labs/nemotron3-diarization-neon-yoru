@@ -1,0 +1,25 @@
+{
+  "name": "clean",
+  "audio_seconds": 72.84,
+  "wall_seconds": 6.399339037000118,
+  "real_time_factor": 0.08785473691653099,
+  "detected_speaker_channels": 4,
+  "mapping_channel_to_cast": {
+    "0": "01",
+    "5": "02",
+    "2": "03",
+    "1": "04",
+    "4": "05",
+    "3": "06",
+    "6": "07",
+    "7": "08"
+  },
+  "turns_correct": 7,
+  "turns_total": 16,
+  "exclusive_energy_frame_exact_accuracy": 0.3239152371342079,
+  "energy_speech_recall": 0.3239152371342079,
+  "overlap_precision": null,
+  "overlap_recall": null,
+  "reference_overlap_seconds": 0.0,
+  "predicted_overlap_seconds": 0.0
+}

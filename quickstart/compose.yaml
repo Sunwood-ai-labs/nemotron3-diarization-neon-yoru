@@ -1,0 +1,11 @@
+services:
+  experiment:
+    build: .
+    image: nemotron-test:local
+    cpus: 8
+    mem_limit: 16g
+    environment:
+      PYTHONUTF8: '1'
+      HF_HOME: /work/models/hf-cache
+    volumes:
+      - .:/work

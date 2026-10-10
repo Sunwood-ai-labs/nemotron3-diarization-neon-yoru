@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!runtime/
+runtime/*
+!runtime/linux-release.tar.gz
+!runtime/linux-release.tar.gz.sha256

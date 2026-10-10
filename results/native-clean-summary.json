@@ -1,0 +1,25 @@
+{
+  "runtime": "Transformers 5.19.0 CPU float32",
+  "model_id": "nvidia/Nemotron-3-Diarization",
+  "revision": "f667ed73aee57d40cc39428eb768b4fd87a0a29e",
+  "weight_sha256": "c074d86335b3b794f8fa5edc25594558f128bdb3914d27806a3a5a2e44963cb6",
+  "detected_speakers": 5,
+  "correct_turns": 7,
+  "total_turns": 16,
+  "wall_seconds_including_load": 12.027191462999781,
+  "mapping": {
+    "0": "01",
+    "1": "02",
+    "5": "03",
+    "2": "04",
+    "3": "05",
+    "4": "06",
+    "6": "07",
+    "7": "08"
+  },
+  "logit_shape": [
+    7285,
+    8
+  ],
+  "postprocessing": "processor.extract_speaker_dict defaults; distinct from C++ baseline postprocessing"
+}
