@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 474" width="880" height="474" role="img" aria-label="どの条件でも、正しく区別できたのは16発話中7発話まで" font-family="'Segoe UI','Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif">
+<rect x="0.5" y="0.5" width="879" height="473" rx="12" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="32" y="44" font-size="20" font-weight="700" fill="#111827">どの条件でも、正しく区別できたのは16発話中7発話まで</text>
+<text x="32" y="70" font-size="13.5" fill="#6B7280">Nemotron 3 Diarization。8人が2発話ずつ話す音声を、条件を変えて処理した結果</text>
+<text x="32" y="104" font-size="12.5" fill="#6B7280">条件</text>
+<text x="250" y="104" font-size="12.5" fill="#6B7280">正しく区別できた発話（満点16）</text>
+<text x="684" y="104" font-size="12.5" fill="#6B7280">検出した人数（正解8人）</text>
+<text x="32" y="137" font-size="14" fill="#111827">順番発話・BGMなし</text>
+<text x="32" y="154" font-size="11.5" fill="#6B7280">C++版 Q8</text>
+<rect x="250" y="124" width="360" height="22" rx="4" fill="#EEF0F2"/>
+<rect x="250" y="124" width="157.5" height="22" rx="4" fill="#4D7C0F"><title>順番発話・BGMなし（C++版 Q8）: 7/16発話</title></rect>
+<text x="417.5" y="140" font-size="14" font-weight="700" fill="#111827">7<tspan font-weight="400" fill="#6B7280"> / 16</tspan></text>
+<circle cx="690" cy="135" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="705" cy="135" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="720" cy="135" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="735" cy="135" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="750" cy="135" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="765" cy="135" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="780" cy="135" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="795" cy="135" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<text x="814" y="140" font-size="13" fill="#111827">4人</text>
+<text x="32" y="183" font-size="14" fill="#111827">2人の重なりあり</text>
+<text x="32" y="200" font-size="11.5" fill="#6B7280">C++版 Q8</text>
+<rect x="250" y="170" width="360" height="22" rx="4" fill="#EEF0F2"/>
+<rect x="250" y="170" width="157.5" height="22" rx="4" fill="#4D7C0F"><title>2人の重なりあり（C++版 Q8）: 7/16発話</title></rect>
+<text x="417.5" y="186" font-size="14" font-weight="700" fill="#111827">7<tspan font-weight="400" fill="#6B7280"> / 16</tspan></text>
+<circle cx="690" cy="181" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="705" cy="181" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="720" cy="181" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="735" cy="181" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="750" cy="181" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="765" cy="181" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="780" cy="181" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="795" cy="181" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<text x="814" y="186" font-size="13" fill="#111827">5人</text>
+<text x="32" y="229" font-size="14" fill="#111827">順番発話・BGMあり</text>
+<text x="32" y="246" font-size="11.5" fill="#6B7280">C++版 Q8</text>
+<rect x="250" y="216" width="360" height="22" rx="4" fill="#EEF0F2"/>
+<rect x="250" y="216" width="112.5" height="22" rx="4" fill="#4D7C0F"><title>順番発話・BGMあり（C++版 Q8）: 5/16発話</title></rect>
+<text x="372.5" y="232" font-size="14" font-weight="700" fill="#111827">5<tspan font-weight="400" fill="#6B7280"> / 16</tspan></text>
+<circle cx="690" cy="227" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="705" cy="227" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="720" cy="227" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="735" cy="227" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="750" cy="227" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="765" cy="227" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="780" cy="227" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="795" cy="227" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<text x="814" y="232" font-size="13" fill="#111827">4人</text>
+<text x="32" y="275" font-size="14" fill="#111827">順番発話・BGMなし</text>
+<text x="32" y="292" font-size="11.5" fill="#6B7280">Transformers版 FP32</text>
+<rect x="250" y="262" width="360" height="22" rx="4" fill="#EEF0F2"/>
+<rect x="250" y="262" width="157.5" height="22" rx="4" fill="#4D7C0F"><title>順番発話・BGMなし（Transformers版 FP32）: 7/16発話</title></rect>
+<text x="417.5" y="278" font-size="14" font-weight="700" fill="#111827">7<tspan font-weight="400" fill="#6B7280"> / 16</tspan></text>
+<circle cx="690" cy="273" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="705" cy="273" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="720" cy="273" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="735" cy="273" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="750" cy="273" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="765" cy="273" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="780" cy="273" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="795" cy="273" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<text x="814" y="278" font-size="13" fill="#111827">5人</text>
+<text x="32" y="321" font-size="14" fill="#111827">発話を最後まで残す</text>
+<text x="32" y="338" font-size="11.5" fill="#6B7280">Transformers版 FP32</text>
+<rect x="250" y="308" width="360" height="22" rx="4" fill="#EEF0F2"/>
+<rect x="250" y="308" width="112.5" height="22" rx="4" fill="#4D7C0F"><title>発話を最後まで残す（Transformers版 FP32）: 5/16発話</title></rect>
+<text x="372.5" y="324" font-size="14" font-weight="700" fill="#111827">5<tspan font-weight="400" fill="#6B7280"> / 16</tspan></text>
+<circle cx="690" cy="319" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="705" cy="319" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="720" cy="319" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="735" cy="319" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="750" cy="319" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="765" cy="319" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="780" cy="319" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="795" cy="319" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<text x="814" y="324" font-size="13" fill="#111827">3人</text>
+<text x="32" y="367" font-size="14" fill="#111827">自己紹介の先頭4秒</text>
+<text x="32" y="384" font-size="11.5" fill="#6B7280">Transformers版 FP32</text>
+<rect x="250" y="354" width="360" height="22" rx="4" fill="#EEF0F2"/>
+<rect x="250" y="354" width="90.0" height="22" rx="4" fill="#4D7C0F"><title>自己紹介の先頭4秒（Transformers版 FP32）: 4/16発話</title></rect>
+<text x="350.0" y="370" font-size="14" font-weight="700" fill="#111827">4<tspan font-weight="400" fill="#6B7280"> / 16</tspan></text>
+<circle cx="690" cy="365" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="705" cy="365" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="720" cy="365" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="735" cy="365" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="750" cy="365" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="765" cy="365" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="780" cy="365" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="795" cy="365" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<text x="814" y="370" font-size="13" fill="#111827">2人</text>
+<text x="32" y="413" font-size="14" fill="#111827">自己紹介の先頭12秒</text>
+<text x="32" y="430" font-size="11.5" fill="#6B7280">Transformers版 FP32</text>
+<rect x="250" y="400" width="360" height="22" rx="4" fill="#EEF0F2"/>
+<rect x="250" y="400" width="135.0" height="22" rx="4" fill="#4D7C0F"><title>自己紹介の先頭12秒（Transformers版 FP32）: 6/16発話</title></rect>
+<text x="395.0" y="416" font-size="14" font-weight="700" fill="#111827">6<tspan font-weight="400" fill="#6B7280"> / 16</tspan></text>
+<circle cx="690" cy="411" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="705" cy="411" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="720" cy="411" r="5" fill="#111827" stroke="#111827" stroke-width="1.5"/>
+<circle cx="735" cy="411" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="750" cy="411" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="765" cy="411" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="780" cy="411" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<circle cx="795" cy="411" r="5" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+<text x="814" y="416" font-size="13" fill="#111827">3人</text>
+<line x1="610" x2="610" y1="116" y2="432" stroke="#6B7280" stroke-dasharray="4 3"/>
+<text x="610" y="450" font-size="12" text-anchor="middle" fill="#6B7280">満点 16</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 502" width="880" height="502" role="img" aria-label="正解しても類似度は0.53〜0.75。基準0.65の前後に集まる" font-family="'Segoe UI','Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif">
+<rect x="0.5" y="0.5" width="879" height="501" rx="12" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="32" y="44" font-size="20" font-weight="700" fill="#111827">正解しても類似度は0.53〜0.75。基準0.65の前後に集まる</text>
+<text x="32" y="70" font-size="13.5" fill="#6B7280">TitaNet-Large。8人×2発話の16点。基準を超え、かつ2位と0.05以上の差があるときだけ名前を出す</text>
+<line x1="190.0" x2="190.0" y1="120" y2="410" stroke="#EEF0F2"/>
+<text x="190.0" y="428" font-size="12" text-anchor="middle" fill="#6B7280">0.50</text>
+<line x1="283.3" x2="283.3" y1="120" y2="410" stroke="#EEF0F2"/>
+<text x="283.3" y="428" font-size="12" text-anchor="middle" fill="#6B7280">0.55</text>
+<line x1="376.7" x2="376.7" y1="120" y2="410" stroke="#EEF0F2"/>
+<text x="376.7" y="428" font-size="12" text-anchor="middle" fill="#6B7280">0.60</text>
+<line x1="470.0" x2="470.0" y1="120" y2="410" stroke="#EEF0F2"/>
+<text x="470.0" y="428" font-size="12" text-anchor="middle" fill="#6B7280">0.65</text>
+<line x1="563.3" x2="563.3" y1="120" y2="410" stroke="#EEF0F2"/>
+<text x="563.3" y="428" font-size="12" text-anchor="middle" fill="#6B7280">0.70</text>
+<line x1="656.7" x2="656.7" y1="120" y2="410" stroke="#EEF0F2"/>
+<text x="656.7" y="428" font-size="12" text-anchor="middle" fill="#6B7280">0.75</text>
+<line x1="750.0" x2="750.0" y1="120" y2="410" stroke="#EEF0F2"/>
+<text x="750.0" y="428" font-size="12" text-anchor="middle" fill="#6B7280">0.80</text>
+<line x1="470.0" x2="470.0" y1="108" y2="410" stroke="#111827" stroke-dasharray="5 4" stroke-width="1.5"/>
+<text x="478.0" y="114" font-size="12" fill="#111827">名前を出す基準 0.65</text>
+<text x="470.0" y="450" font-size="12.5" text-anchor="middle" fill="#6B7280">登録した声との類似度（cosine、1位の候補）</text>
+<text x="32" y="147" font-size="14" fill="#111827">紅月レイ</text>
+<line x1="190" x2="750" y1="142" y2="142" stroke="#EEF0F2" stroke-width="2"/>
+<circle cx="487.5" cy="142" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>紅月レイ → 紅月レイ / 0.659</title></circle>
+<circle cx="500.0" cy="142" r="7" fill="#FFFFFF" stroke="#111827" stroke-width="2"><title>紅月レイ → ユラ / 0.666</title></circle>
+<path d="M497.0 139l6 6M503.0 139l-6 6" stroke="#111827" stroke-width="2"/>
+<text x="512.0" y="133" font-size="11.5" fill="#111827">ユラと誤認</text>
+<text x="32" y="183" font-size="14" fill="#111827">海月よるみ</text>
+<line x1="190" x2="750" y1="178" y2="178" stroke="#EEF0F2" stroke-width="2"/>
+<circle cx="521.8" cy="178" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>海月よるみ → 海月よるみ / 0.678</title></circle>
+<circle cx="656.8" cy="178" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>海月よるみ → 海月よるみ / 0.750</title></circle>
+<text x="32" y="219" font-size="14" fill="#111827">天狗カガセ</text>
+<line x1="190" x2="750" y1="214" y2="214" stroke="#EEF0F2" stroke-width="2"/>
+<circle cx="398.1" cy="214" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>天狗カガセ → 天狗カガセ / 0.611</title></circle>
+<circle cx="421.7" cy="214" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>天狗カガセ → 天狗カガセ / 0.624</title></circle>
+<text x="32" y="255" font-size="14" fill="#111827">ぽんた</text>
+<line x1="190" x2="750" y1="250" y2="250" stroke="#EEF0F2" stroke-width="2"/>
+<circle cx="322.8" cy="250" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>ぽんた → ぽんた / 0.571</title></circle>
+<circle cx="252.5" cy="250" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>ぽんた → ぽんた / 0.533</title></circle>
+<text x="32" y="291" font-size="14" fill="#111827">神代シオン</text>
+<line x1="190" x2="750" y1="286" y2="286" stroke="#EEF0F2" stroke-width="2"/>
+<circle cx="462.2" cy="286" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>神代シオン → 神代シオン / 0.646</title></circle>
+<circle cx="625.6" cy="286" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>神代シオン → 神代シオン / 0.733</title></circle>
+<text x="32" y="327" font-size="14" fill="#111827">深海ナギ</text>
+<line x1="190" x2="750" y1="322" y2="322" stroke="#EEF0F2" stroke-width="2"/>
+<circle cx="381.0" cy="322" r="7" fill="#FFFFFF" stroke="#111827" stroke-width="2"><title>深海ナギ → 神代シオン / 0.602</title></circle>
+<path d="M378.0 319l6 6M384.0 319l-6 6" stroke="#111827" stroke-width="2"/>
+<text x="393.0" y="313" font-size="11.5" fill="#111827">神代シオンと誤認</text>
+<circle cx="332.0" cy="322" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>深海ナギ → 深海ナギ / 0.576</title></circle>
+<text x="32" y="363" font-size="14" fill="#111827">黒百合レン</text>
+<line x1="190" x2="750" y1="358" y2="358" stroke="#EEF0F2" stroke-width="2"/>
+<circle cx="593.4" cy="358" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>黒百合レン → 黒百合レン / 0.716</title></circle>
+<circle cx="532.6" cy="358" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>黒百合レン → 黒百合レン / 0.684</title></circle>
+<text x="32" y="399" font-size="14" fill="#111827">ユラ</text>
+<line x1="190" x2="750" y1="394" y2="394" stroke="#EEF0F2" stroke-width="2"/>
+<circle cx="513.1" cy="394" r="7" fill="#FFFFFF" stroke="#111827" stroke-width="2"><title>ユラ → 紅月レイ / 0.673</title></circle>
+<path d="M510.1 391l6 6M516.1 391l-6 6" stroke="#111827" stroke-width="2"/>
+<text x="525.1" y="385" font-size="11.5" fill="#111827">紅月レイと誤認</text>
+<circle cx="474.6" cy="394" r="7" fill="#4D7C0F" stroke="#FFFFFF" stroke-width="2"><title>ユラ → ユラ / 0.652</title></circle>
+<circle cx="39" cy="476" r="7" fill="#4D7C0F"/>
+<text x="54" y="481" font-size="12.5" fill="#111827">1位が本人（正解）</text>
+<circle cx="209" cy="476" r="7" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+<path d="M206 473l6 6M212 473l-6 6" stroke="#111827" stroke-width="2"/>
+<text x="224" y="481" font-size="12.5" fill="#111827">1位が別人（誤り）</text>
+</svg>

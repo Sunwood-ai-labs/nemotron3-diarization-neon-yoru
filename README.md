@@ -39,6 +39,17 @@ NVIDIAの話者分離モデル [Nemotron 3 Diarization](https://huggingface.co/n
 
 8人の声は4〜5人分にまとめられ、正しく区別できたのは16発話中7発話まででした（2026-10-10、CPU推論）。
 
+<p align="center">
+  <img src="assets/chart-diarization.svg" alt="条件別の正答数と検出人数" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/chart-pipeline.svg" alt="照合だけ・話者分離だけ・2つをつないだ場合の正答数" width="100%">
+</p>
+
+<details>
+<summary>グラフの元になった数値</summary>
+
 | 条件 | 実行方式 | 正しく区別できた発話（満点16） | 検出した人数（正解8人） |
 | --- | --- | ---: | ---: |
 | 順番発話・BGMなし | C++版 Q8 | 7 | 4 |
@@ -48,6 +59,8 @@ NVIDIAの話者分離モデル [Nemotron 3 Diarization](https://huggingface.co/n
 | 発話を最後まで残す | Transformers版 FP32 | 5 | 3 |
 | 自己紹介の先頭4秒 | Transformers版 FP32 | 4 | 2 |
 | 自己紹介の先頭12秒 | Transformers版 FP32 | 6 | 3 |
+
+</details>
 
 - 声の照合（TitaNet-Large）は、正しい発話区間を与えると16発話中13発話で正解。
 - Nemotron 3の推定区間にTitaNetで名前を付ける一連の処理は、16発話すべて「不明」。
@@ -87,6 +100,7 @@ docker compose run --rm experiment python score.py results/meeting.rttm inputs/m
 | --- | --- |
 | `quickstart/` | 自分の音声で試すための一式 |
 | `experiment/` | 今回の実験で実際に動かしたスクリプトと設定 |
+| `assets/` | ヘッダー画像、グラフ、グラフ生成スクリプト（`make_charts.py`） |
 | `results/` | 3条件の話者分離結果（RTTM）、採点、TitaNetの類似度、文字起こし |
 | `diagnosis/` | 原因の切り分け実験（発話長・閾値）の結果 |
 | `docs/` | 実測レポートと事前調査メモ |
@@ -97,13 +111,9 @@ docker compose run --rm experiment python score.py results/meeting.rttm inputs/m
 
 | 役割 | モデル・ランタイム |
 | --- | --- |
-| 話者分離 | Nemotron 3 Diarization 公式GGUF Q8_0（revision `f667ed73`）、NeMo-Speech.cpp v0.2.0 CPU |
+| 話者分離 | [Nemotron 3 Diarization](https://huggingface.co/nvidia/Nemotron-3-Diarization) 公式GGUF Q8_0（revision `f667ed73`）、[NeMo-Speech.cpp](https://github.com/NVIDIA/NeMo-Speech.cpp) v0.2.0 CPU |
 | 話者分離（対照） | 同モデルのTransformers 5.19.0、FP32、CPU |
-| 声の照合 | TitaNet-Large |
+| 声の照合 | [TitaNet-Large](https://huggingface.co/nvidia/speakerverification_en_titanet_large) |
 | 文字起こし | Whisper small（faster-whisper、CPU int8） |
-
-- [Nemotron 3 Diarization（公式モデルカード）](https://huggingface.co/nvidia/Nemotron-3-Diarization)
-- [NeMo-Speech.cpp](https://github.com/NVIDIA/NeMo-Speech.cpp)
-- [TitaNet-Large](https://huggingface.co/nvidia/speakerverification_en_titanet_large)
 
 各モデルの利用条件は、それぞれの配布元の記載に従ってください。

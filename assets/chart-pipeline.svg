@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 302" width="880" height="302" role="img" aria-label="照合だけなら13発話正解。話者分離をはさむと0発話になる" font-family="'Segoe UI','Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif">
+<rect x="0.5" y="0.5" width="879" height="301" rx="12" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="32" y="44" font-size="20" font-weight="700" fill="#111827">照合だけなら13発話正解。話者分離をはさむと0発話になる</text>
+<text x="32" y="70" font-size="13.5" fill="#6B7280">16発話のうち、正しい話者（または正しい名前）を当てられた数</text>
+<text x="32" y="120" font-size="15" font-weight="700" fill="#111827">声の照合だけ</text>
+<text x="32" y="139" font-size="12" fill="#6B7280">正しい区間を人が与え、TitaNetに8人から選ばせる</text>
+<rect x="400" y="104" width="380" height="28" rx="4" fill="#EEF0F2"/>
+<rect x="400" y="104" width="308.8" height="28" rx="4" fill="#4D7C0F"><title>声の照合だけ: 13/16発話</title></rect>
+<text x="718.8" y="124" font-size="16" font-weight="700" fill="#111827">13<tspan font-weight="400" fill="#6B7280"> / 16</tspan></text>
+<text x="32" y="182" font-size="15" font-weight="700" fill="#111827">話者分離だけ</text>
+<text x="32" y="201" font-size="12" fill="#6B7280">Nemotron 3が区間を分ける（順番発話・BGMなし）</text>
+<rect x="400" y="166" width="380" height="28" rx="4" fill="#EEF0F2"/>
+<rect x="400" y="166" width="166.2" height="28" rx="4" fill="#4D7C0F"><title>話者分離だけ: 7/16発話</title></rect>
+<text x="576.2" y="186" font-size="16" font-weight="700" fill="#111827">7<tspan font-weight="400" fill="#6B7280"> / 16</tspan></text>
+<text x="32" y="244" font-size="15" font-weight="700" fill="#111827">2つをつなぐ</text>
+<text x="32" y="263" font-size="12" fill="#6B7280">Nemotron 3の区間に、TitaNetで名前を付ける</text>
+<rect x="400" y="228" width="380" height="28" rx="4" fill="#EEF0F2"/>
+<text x="410.0" y="248" font-size="16" font-weight="700" fill="#111827">0<tspan font-weight="400" fill="#6B7280"> / 16</tspan></text>
+</svg>

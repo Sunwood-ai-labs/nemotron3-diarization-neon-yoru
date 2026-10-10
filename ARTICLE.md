@@ -66,6 +66,10 @@ Nemotron 3が出すのは「話者A」「話者B」という仮の番号だけ�
 
 いちばん条件の良い「順番に話す・BGMなし」でも、Nemotron 3が検出したのは4人でした。別人の声を同じ話者と判定したためで、正しく区別できた発話は半分に届きません。
 
+![条件別の正答数と検出人数](https://raw.githubusercontent.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/main/assets/chart-diarization.png)
+
+グラフの元になった数値は次の表のとおりです。
+
 | 条件 | 実行方式 | 正しく区別できた発話（満点16） | 検出した人数（正解8人） |
 | --- | --- | ---: | ---: |
 | 順番発話・BGMなし | C++版 Q8 | 7 | 4 |
@@ -97,6 +101,8 @@ Nemotron 3が出すのは「話者A」「話者B」という仮の番号だけ�
 
 間違いは3件で、紅月レイとユラが互いに取り違えられ、深海ナギが神代シオンと判定されました。
 
+![キャラクター別の類似度と採用基準](https://raw.githubusercontent.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/main/assets/chart-titanet.png)
+
 ただし、正解したときの類似度（cosine）も0.53〜0.75と高くありません。「自信があるときだけ名前を出す」基準（類似度0.65以上、かつ2位との差0.05以上）にすると、名前が出たのは16発話中4発話だけでした。その4発話はすべて正解です。
 
 本人を名簿から外したテストでは、16発話中14発話を「登録されていない人」として正しく保留できました。
@@ -104,6 +110,8 @@ Nemotron 3が出すのは「話者A」「話者B」という仮の番号だけ�
 ## 結果3：2つをつなぐと全員「不明」
 
 Nemotron 3が分けた区間をそのままTitaNetに渡すと、正しい名前が付いた発話は16発話中0件でした。全件が「不明」として保留されています。
+
+![照合だけ・話者分離だけ・2つをつないだ場合の正答数](https://raw.githubusercontent.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/main/assets/chart-pipeline.png)
 
 理由は前段の失敗がそのまま後段に流れたことです。Nemotron 3が別人の声を1人分にまとめたため、TitaNetには複数人の声が混ざった音声が届きました。混ざった声は名簿の誰とも十分に似ず、基準に届きません。
 
