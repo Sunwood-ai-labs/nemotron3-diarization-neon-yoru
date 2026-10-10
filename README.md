@@ -1,8 +1,39 @@
-# Nemotron 3 Diarization × NEON YORU：8人の話者分離を実測
+<p align="center">
+  <img src="assets/header.svg" alt="Nemotron 3 Diarization × NEON YORU — 8-speaker field test" width="100%">
+</p>
 
-NVIDIAの話者分離モデル [Nemotron 3 Diarization](https://huggingface.co/nvidia/Nemotron-3-Diarization)（最大8人対応）が、8人組ユニットNEON YORUの声を聞き分けられるかを実測した記録です。実験コード、実測結果、自分の音声で試すための一式を置いています。
+<h1 align="center">Nemotron 3 Diarization × NEON YORU</h1>
 
-解説記事は [ARTICLE.md](ARTICLE.md) です。
+<p align="center">
+  <b>「最大8人対応」の話者分離AIは、8人組の声を本当に聞き分けられるのか。</b><br>
+  NVIDIA Nemotron 3 Diarization を日本語TTSの8キャラクター音声で実測した記録と、再現用コード一式。
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Nemotron_3_Diarization-Q8_%2F_FP32-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Nemotron 3 Diarization">
+  <img src="https://img.shields.io/badge/NeMo--Speech.cpp-v0.2.0-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NeMo-Speech.cpp v0.2.0">
+  <img src="https://img.shields.io/badge/TitaNet--Large-speaker_ID-5A8F00?style=for-the-badge&logo=nvidia&logoColor=white" alt="TitaNet-Large">
+  <img src="https://img.shields.io/badge/Whisper-small-412991-openai?style=for-the-badge" alt="Whisper small">
+  <br>
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12">
+  <img src="https://img.shields.io/badge/PyTorch-2.11_CPU-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch 2.11 CPU">
+  <img src="https://img.shields.io/badge/Transformers-5.19-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Transformers 5.19">
+  <img src="https://img.shields.io/badge/Docker_Compose-v5.5-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose v5.5">
+  <img src="https://img.shields.io/badge/Podman-WSL2-892CA0?style=for-the-badge&logo=podman&logoColor=white" alt="Podman on WSL2">
+  <img src="https://img.shields.io/badge/GPU-not_required-374151?style=for-the-badge" alt="GPU not required">
+</p>
+
+<p align="center">
+  <a href="ARTICLE.md"><b>解説記事</b></a> ·
+  <a href="#結果">結果</a> ·
+  <a href="#自分の音声で試す">クイックスタート</a> ·
+  <a href="#フォルダ構成">フォルダ構成</a> ·
+  <a href="docs/REPORT.md">実測レポート</a>
+</p>
+
+---
+
+NVIDIAの話者分離モデル [Nemotron 3 Diarization](https://huggingface.co/nvidia/Nemotron-3-Diarization)（2026年9月23日公開、最大8人対応）に、8人組ユニットNEON YORUの声を聞かせました。順番に話す音声、2人が重なる音声、BGM入りの音声の3条件で、「誰が、いつ話したか」をどこまで当てられるかを採点しています。
 
 ## 結果
 
