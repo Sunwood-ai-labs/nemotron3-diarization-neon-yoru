@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/Nemotron_3_Diarization-Q8_%2F_FP32-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Nemotron 3 Diarization">
   <img src="https://img.shields.io/badge/NeMo--Speech.cpp-v0.2.0-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NeMo-Speech.cpp v0.2.0">
   <img src="https://img.shields.io/badge/TitaNet--Large-speaker_ID-5A8F00?style=for-the-badge&logo=nvidia&logoColor=white" alt="TitaNet-Large">
-  <img src="https://img.shields.io/badge/Whisper-small-412991-openai?style=for-the-badge" alt="Whisper small">
+  <img src="https://img.shields.io/badge/Whisper-small_(faster--whisper)-412991?style=for-the-badge" alt="Whisper small">
   <br>
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12">
   <img src="https://img.shields.io/badge/PyTorch-2.11_CPU-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch 2.11 CPU">
