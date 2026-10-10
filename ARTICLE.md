@@ -272,8 +272,10 @@ for t in truth:
 
 | やりたいこと | スクリプト | 抜粋元 |
 | --- | --- | --- |
-| 量子化なしのFP32版で同じ音声を処理する | [`fp32.py`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/blob/main/quickstart/fp32.py) | [`experiment/native.py`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/blob/main/experiment/native.py) |
-| TitaNetで登録済みの声と照合し、名前を付ける | [`titanet.py`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/blob/main/quickstart/titanet.py) | [`experiment/experiment.py`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/blob/main/experiment/experiment.py) |
+| 量子化なしのFP32版で同じ音声を処理する | `fp32.py` | `experiment/native.py` |
+| TitaNetで登録済みの声と照合し、名前を付ける | `titanet.py` | `experiment/experiment.py` |
+
+スクリプトは [`fp32.py`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/blob/main/quickstart/fp32.py) と [`titanet.py`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/blob/main/quickstart/titanet.py)、抜粋元は [`experiment/native.py`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/blob/main/experiment/native.py) と [`experiment/experiment.py`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/blob/main/experiment/experiment.py) です。
 
 FP32版の核は、Transformersの標準的な呼び出しです。出力は手順2と同じRTTM形式に書き出すので、`score.py` でそのまま採点できます。
 
@@ -303,15 +305,17 @@ accepted = scores[first] >= 0.65 and scores[first] - scores[second] >= 0.05
 
 | フォルダ | 内容 |
 | --- | --- |
-| [`quickstart/`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/tree/main/quickstart) | 自分の音声で試すための一式（上の手順で使うもの） |
-| [`experiment/`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/tree/main/experiment) | 今回の実験で実際に動かしたスクリプトと設定。NEON YORUの音声素材が前提 |
-| [`results/`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/tree/main/results) | 3条件の話者分離結果（RTTM）、採点、TitaNetの類似度、文字起こし |
-| [`diagnosis/`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/tree/main/diagnosis) | 原因の切り分け実験の結果 |
-| [`docs/`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/tree/main/docs) | 実測レポートと事前調査メモ |
+| `quickstart/` | 自分の音声で試すための一式（上の手順で使うもの） |
+| `experiment/` | 今回の実験で実際に動かしたスクリプトと設定。NEON YORUの音声素材が前提 |
+| `results/` | 3条件の話者分離結果（RTTM）、採点、TitaNetの類似度、文字起こし |
+| `diagnosis/` | 原因の切り分け実験の結果 |
+| `docs/` | 実測レポートと事前調査メモ |
+
+各フォルダは[リポジトリのトップ](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru)から開けます。
 
 条件を変えて切り分けるなら、BGMあり・なし、発話を短く切った版・最後まで残した版、同時発話を入れた版を作り、手順2と手順3を繰り返します。今回の入力の組み立て方は [`experiment/prepare.py`](https://github.com/Sunwood-ai-labs/nemotron3-diarization-neon-yoru/blob/main/experiment/prepare.py) にあります。
 
-## 玄人向け：実行条件と指標の定義
+## 実行条件と指標の定義
 
 | 項目 | 内容 |
 | --- | --- |

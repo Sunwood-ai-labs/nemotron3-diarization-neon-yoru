@@ -97,9 +97,13 @@ docker compose run --rm experiment python score.py results/meeting.rttm inputs/m
 
 | 役割 | モデル・ランタイム |
 | --- | --- |
-| 話者分離 | Nemotron 3 Diarization 公式GGUF Q8_0（revision `f667ed73`）、[NeMo-Speech.cpp](https://github.com/NVIDIA/NeMo-Speech.cpp) v0.2.0 CPU |
+| 話者分離 | Nemotron 3 Diarization 公式GGUF Q8_0（revision `f667ed73`）、NeMo-Speech.cpp v0.2.0 CPU |
 | 話者分離（対照） | 同モデルのTransformers 5.19.0、FP32、CPU |
-| 声の照合 | [TitaNet-Large](https://huggingface.co/nvidia/speakerverification_en_titanet_large) |
+| 声の照合 | TitaNet-Large |
 | 文字起こし | Whisper small（faster-whisper、CPU int8） |
+
+- [Nemotron 3 Diarization（公式モデルカード）](https://huggingface.co/nvidia/Nemotron-3-Diarization)
+- [NeMo-Speech.cpp](https://github.com/NVIDIA/NeMo-Speech.cpp)
+- [TitaNet-Large](https://huggingface.co/nvidia/speakerverification_en_titanet_large)
 
 各モデルの利用条件は、それぞれの配布元の記載に従ってください。
